@@ -174,7 +174,7 @@
             font-size: 0.9em;
         }
 
-        /* 占位提示样式 */
+        
         .placeholder {
             background: #fff;
             border: 2px dashed #cbd5e0;
@@ -189,7 +189,7 @@
             font-size: 1.1em;
         }
 
-        /* 响应式设计 */
+        
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2em;
@@ -208,7 +208,7 @@
             }
         }
 
-        /* 页脚 */
+        
         footer {
             text-align: center;
             padding: 30px;
@@ -222,19 +222,18 @@
 </head>
 <body>
     <div class="container">
-        <!-- 页头 -->
+
         <header>
             <h1>多媒体内容展示平台</h1>
             <p>集成视频、图片、音频的一站式内容展示框架</p>
         </header>
 
-        <!-- 视频区域 -->
+
         <section id="video-section">
             <h2 class="section-title">🎬 视频展示</h2>
-            
-            <!-- 视频1: YouTube 嵌入示例 -->
+
             <div class="video-wrapper">
-                <!-- 替换 src 为你的 YouTube 视频链接，格式：https://www.youtube.com/embed/视频ID -->
+
                 <iframe 
                     src="https://www.bilibili.com/video/BV1MBXPBtEbk/?spm_id_from=333.1007.tianma.4-2-12.click" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -246,9 +245,8 @@
                 <p>这里是视频的描述信息，你可以自由编辑内容...</p>
             </div>
 
-            <!-- 视频2: B站 嵌入示例 -->
             <div class="video-wrapper">
-                <!-- 替换 src 为你的 B站 视频链接，格式：https://player.bilibili.com/player.html?bvid=视频ID -->
+
                 <iframe 
                     src="//player.bilibili.com/player.html?bvid=BV1xx411c7mD" 
                     scrolling="no" 
@@ -263,9 +261,9 @@
                 <p>B站视频嵌入示例，可替换为你想要的视频链接...</p>
             </div>
 
-            <!-- 视频3: 直链视频示例 -->
+            
             <div class="video-wrapper">
-                <!-- 替换 src 为你的视频直链地址，支持 mp4, webm 等格式 -->
+                
                 <video controls poster="https://via.placeholder.com/800x450?text=Video+Poster">
                     <source src="https://example.com/your-video.mp4" type="video/mp4">
                     您的浏览器不支持视频标签。
@@ -277,13 +275,13 @@
             </div>
         </section>
 
-        <!-- 图片区域 -->
+        
         <section id="image-section">
             <h2 class="section-title">🖼️ 图片展示</h2>
             <div class="image-grid">
-                <!-- 图片卡片1 -->
+               
                 <div class="image-card">
-                    <!-- 替换 src 为你的图片链接 -->
+    
                     <img src="https://via.placeholder.com/600x400/667eea/ffffff?text=Image+1" alt="示例图片1">
                     <div class="image-card-content">
                         <h4>图片标题 1</h4>
@@ -291,7 +289,7 @@
                     </div>
                 </div>
 
-                <!-- 图片卡片2 -->
+             
                 <div class="image-card">
                     <img src="https://via.placeholder.com/600x400/764ba2/ffffff?text=Image+2" alt="示例图片2">
                     <div class="image-card-content">
@@ -300,7 +298,7 @@
                     </div>
                 </div>
 
-                <!-- 图片卡片3 -->
+                
                 <div class="image-card">
                     <img src="https://via.placeholder.com/600x400/667eea/ffffff?text=Image+3" alt="示例图片3">
                     <div class="image-card-content">
@@ -309,7 +307,7 @@
                     </div>
                 </div>
 
-                <!-- 图片卡片4 -->
+                
                 <div class="image-card">
                     <img src="https://via.placeholder.com/600x400/764ba2/ffffff?text=Image+4" alt="示例图片4">
                     <div class="image-card-content">
@@ -320,49 +318,39 @@
             </div>
         </section>
 
-        <!-- 音频区域 -->
+        
         <section id="audio-section">
             <h2 class="section-title">🎵 音频展示</h2>
             
-            <!-- 音频播放器1 -->
+           
             <div class="audio-player">
-                <!-- 替换 src 为你的音频链接，支持 mp3, wav, ogg 等格式 -->
+                
                 <audio controls>
-                    <source src="https://example.com/your-audio.mp3" type="audio/mpeg">
+                    <source src="./神曼波【哈基米音乐】 - 月底没钱君.mp3" type="audio/mpeg">
                     您的浏览器不支持音频标签。
                 </audio>
                 <div class="audio-info">
-                    <h4>音频标题 1</h4>
+                    <h4>哈吉米曼波</h4>
                     <p>音频描述信息，可以介绍音频内容、作者等...</p>
                 </div>
             </div>
 
-            <!-- 音频播放器2 -->
+            
             <div class="audio-player">
                 <audio controls>
-                    <source src="https://example.com/your-audio2.mp3" type="audio/mpeg">
+                    <source src="./逐空·高考战歌 - 叶斯淳_菜籽油Clazy.mp3" type="audio/mpeg">
                     您的浏览器不支持音频标签。
                 </audio>
                 <div class="audio-info">
-                    <h4>音频标题 2</h4>
+                    <h4>逐空</h4>
                     <p>可添加多个音频播放器，复制整个 audio-player div 即可...</p>
                 </div>
             </div>
 
-            <!-- 音频播放器3 -->
-            <div class="audio-player">
-                <audio controls>
-                    <source src="https://example.com/your-audio3.mp3" type="audio/mpeg">
-                    您的浏览器不支持音频标签。
-                </audio>
-                <div class="audio-info">
-                    <h4>音频标题 3</h4>
-                    <p>播放器样式统一，支持所有主流浏览器的原生音频控件...</p>
-                </div>
-            </div>
+         
+           
         </section>
 
-        <!-- 自定义内容区域（可选） -->
         <section id="custom-section">
             <h2 class="section-title">✨ 自定义内容</h2>
             <div class="placeholder">
@@ -371,7 +359,6 @@
             </div>
         </section>
 
-        <!-- 页脚 -->
         <footer>
             <p>&copy; 2026 多媒体内容展示平台 | 灵活自定义，自由创作</p>
         </footer>
